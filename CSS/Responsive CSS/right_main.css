@@ -1,0 +1,595 @@
+@media (min-width: 1500px) and (max-width: 1600px) {
+    .left_main{
+        width: 100vh;
+        left:9vh;
+    }
+}
+@media (min-width: 1425px) and (max-width: 1530px) {
+    .left_main{
+        width: 90vh;
+        left: 4vh;
+    }
+}
+@media (min-width: 1335px) and (max-width: 1425px) {
+    .profile{
+        width: 35vh;
+    }
+    .left_main{
+        width: 85vh;
+        left: 0;
+    }
+}
+@media (min-width: 1340px) and (max-width: 1335px) {
+    .profile{
+        width: 35vh;
+    }
+    .left_main{
+        width: 85vh;
+        left: 0;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1340px) {
+    .profile{
+        width: 45vh;
+    }
+    .left_main{
+        width: 70vh;
+        left: 0;
+    }
+
+    .chart_main{
+        width: 80vh;
+    }
+    .chart_main_bar_chart{
+        width: 80vh;
+    }
+    #myChart{
+        width: 60vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+    .chart_main_header{
+        width: 60vh !important;
+    }
+    .retirement_head{
+        width: 60vh !important;
+        margin: 0 !important;
+    }
+    .retirement_income .retirement_start_year{
+        width: 60vh !important;
+    }
+    .monetary_data{
+        width: 60vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+    .peer_comparison .peer_header{
+        width: 60vh !important;
+    }
+    .peer_stats{
+        width: 60vh !important;
+    }
+    .peer_dropdown{
+        width: 8vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .profile{
+        width: 40vh;
+    }
+    .left_main{
+        width: 65vh;
+        left: 0;
+    }
+
+    .chart_main{
+        width: 80vh;
+    }
+    .chart_main_bar_chart{
+        width: 80vh;
+    }
+    #myChart{
+        width: 60vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+    .chart_main_header{
+        width: 60vh !important;
+    }
+    .retirement_head{
+        width: 60vh !important;
+        margin: 0 !important;
+    }
+    .retirement_income .retirement_start_year{
+        width: 60vh !important;
+    }
+    .monetary_data{
+        width: 60vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+    .peer_comparison .peer_header{
+        width: 60vh !important;
+    }
+    .peer_stats{
+        width: 60vh !important;
+    }
+    .peer_dropdown{
+        width: 8vh;
+    }
+}
+
+@media (min-width: 1160px) and (max-width: 1200px) {
+    .profile{
+        width: 35vh !important;
+    }
+    .left_main{
+        width: 65vh;
+        left: 0;
+    }
+
+    .chart_main{
+        width: 80vh;
+    }
+    .chart_main_bar_chart{
+        width: 80vh;
+    }
+    #myChart{
+        width: 60vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+    .chart_main_header{
+        width: 60vh !important;
+    }
+    .retirement_head{
+        width: 60vh !important;
+        margin: 0 !important;
+    }
+    .retirement_income .retirement_start_year{
+        width: 60vh !important;
+    }
+    .monetary_data{
+        width: 60vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+    .peer_comparison .peer_header{
+        width: 60vh !important;
+    }
+    .peer_stats{
+        width: 60vh !important;
+    }
+    .peer_dropdown{
+        width: 8vh;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1160px) {
+    .side-nav{
+        width: 7vh;
+        justify-content: center;
+    }
+    .user_div{
+        padding: 0 !important;
+    }
+    .top {
+        padding: 0 !important;
+        left: 1vh;
+    }
+
+    .mid{
+        padding: 0 !important;
+    }
+    .bottom{
+        padding: 0 !important;
+    }
+    .profile{
+        width: 35vh !important;
+        left: 1vh;
+    }
+    .left_main{
+        width: 58vh;
+        left: -6vh;
+    }
+
+    .chart_main{
+        width: 80vh;
+    }
+    .chart_main_bar_chart{
+        width: 80vh;
+    }
+    #myChart{
+        width: 60vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+    .chart_main_header{
+        width: 60vh !important;
+    }
+    .retirement_head{
+        width: 60vh !important;
+        margin: 0 !important;
+    }
+    .retirement_income .retirement_start_year{
+        width: 60vh !important;
+    }
+    .monetary_data{
+        width: 60vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+    .peer_comparison .peer_header{
+        width: 60vh !important;
+    }
+    .peer_stats{
+        width: 60vh !important;
+    }
+    .peer_dropdown{
+        width: 8vh;
+    }
+
+}
+
+@media (min-width: 1070px) and (max-width: 1100px) {
+    .profile{
+        width: 40vh !important;
+        left: 5vh;
+    }
+    .left_main{
+        width: 70vh;
+        left: -6vh;
+    }
+    #myChart{
+        /* width: 60vh !important; */
+        height: 90%;
+        margin: 0 !important;
+    }
+
+    .right_main{
+        opacity: 0;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1070px) {
+    .profile{
+        width: 35vh !important;
+        left: 2vh;
+    }
+    .left_main{
+        width: 80vh;
+        left: -6vh;
+    }
+    #myChart{
+        width: 80vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+
+    .monetary_data{
+        width: 100vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+
+    .peer_comparison .peer_header{
+        width: 100vh !important;
+    }
+    .peer_stats{
+        width: 100vh !important;
+    }
+    .peer_dropdown{
+        width: 15vh;
+    }
+
+
+    .right_main{
+        opacity: 0;
+    }
+}
+@media (min-width: 930px) and (max-width: 1020px) {
+    .profile{
+        width: 35vh !important;
+        left: 2vh;
+    }
+    .left_main{
+        width: 70vh;
+        left: -6vh;
+    }
+    #myChart{
+        width: 70vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+
+    .monetary_data{
+        width: 90vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+
+    .peer_comparison .peer_header{
+        width: 90vh !important;
+    }
+    .peer_stats{
+        width: 70vh !important;
+    }
+    .peer_dropdown{
+        width: 8vh;
+    }
+
+
+    .right_main{
+        opacity: 0;
+    }
+}
+@media (min-width: 870px) and (max-width: 930px) {
+    .side-nav{
+        width: 5vh;
+        justify-content: center;
+    }
+    .user_div{
+        padding: 0 !important;
+    }
+    .top {
+        padding: 0 !important;
+        left: 1vh;
+    }
+
+    .mid{
+        padding: 0 !important;
+    }
+    .bottom{
+        padding: 0 !important;
+    }
+
+
+    .profile{
+        width: 22vh !important;
+        /* overflow:visible; */
+    }
+    .profile_main{
+        padding-left: 2vh;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .profile_info{
+        padding-left: 0;
+        justify-content: flex-start;
+        
+    }
+    .profile_extra_info{
+        padding-left: 0;
+        justify-content: flex-start;
+
+    }
+
+
+    .left_main{
+        width: 70vh;
+        left: 0vh;
+    }
+    #myChart{
+        width: 70vh !important;
+        height: 90%;
+        margin: 0 !important;
+    }
+
+    .monetary_data{
+        width: 90vh !important;
+        padding-left: 3vh;
+        margin-bottom: 5vh;
+    }
+
+    .peer_comparison .peer_header{
+        width: 90vh !important;
+    }
+    .peer_stats{
+        width: 70vh !important;
+    }
+    .peer_dropdown{
+        width: 8vh;
+    }
+
+
+    .right_main{
+        opacity: 0;
+    }
+}
+
+@media (max-width: 870px) {
+    .side_nav,.top, .user_div, .mid, .bottom,
+    .right_main *{
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        width: 0;
+    }
+
+    .header{
+        width: 100%;
+        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    /* Profile  */
+    .profile{
+        width: 100vh;
+        height: 100vh;
+        left: 0;
+        top: 5vh;
+        align-items: flex-start;
+    }
+    .profile_main{
+        width: 33vh;
+        align-items: left;
+        padding: 0;
+        margin: 3vh 0 3vh 0;
+    }
+
+    .day{
+        margin: 0;
+    }
+    .account_balance{
+        margin-bottom: 4vh;
+    }
+    .main_balance{
+        font-size: 5vh;
+    }
+    .main_balance_info{
+        font-size: 1.9vh;
+    }
+    .ytd_and_interest_div{
+        width: 25vh;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4vh;
+    }
+    .y-t-d-contributions{
+        width: 13vh;
+        height: 6vh;
+        overflow: hidden;
+    }
+    .y-t-d-balance, .total_interest_amount{
+        font-size: 2.5vh;
+    }
+    .total_interest_info, .y-t-d-info{
+        font-size: 1.9vh;
+    }
+
+    .dd-button{
+        width: 30vh;
+        height: 7vh;
+        margin-bottom: 4vh;
+    }
+    .dd-button:after{
+        opacity: 0;
+    }
+
+    .profile_extra_info{
+        position: relative;
+        top: 12vh;
+    }
+    .heading{
+        font-size: 2.5vh;
+        margin-bottom: 3vh;
+    }
+    .transfer_date{
+        font-size: 1.6vh;
+    }
+    .transfer_info{
+        font-size: 1.7vh;
+    }
+
+
+    /* left main  */
+    .left_main{
+        top: 10vh;
+        left: 0;
+    }
+    .retirement_head{
+        padding-left: 5vh;
+        margin-bottom: 2vh;
+    }
+
+    .monetary_data_responsive{
+        padding-left: 0;
+        flex-direction: column;
+        position: relative;
+        top: 2vh;
+        left: 5vh;
+        justify-content: center;
+
+    }
+    .goal_main_responsive{
+        margin: 4vh 0 1vh 0;
+        height:40%;
+        width: 70%;
+        /* background-color: red; */
+
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+    .goal_info_responsive{
+        margin: 0 0 1vh 0;
+        height: 30%;
+        width: 70%;
+        /* background-color: green; */
+
+        display: flex;
+        align-items: center;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5vh;
+        font-weight: bold;
+        color: rgb(187, 187, 187);
+    }
+    .goal_line_br_responsive{
+        margin: 0 0 2vh 0;
+        height: 5%;
+        width: 35%;
+        /* background-color: blue; */
+        padding: 0;
+        border-bottom: 1.5px solid blue;
+    }
+
+    .rest_2_slot_responsive{
+        display: flex;
+        flex-direction: row;
+        /* align-items: flex-start;
+        justify-content: flex-start; */
+
+        height: 10vh;
+        width: 40vh;
+        /* background-color: red; */
+    }
+    .goal_slot_responsive_2{
+        height: 10vh;
+        width: 50%;
+    }
+    .goal_main_responsive_2{
+        height:40%;
+        width: 70%;
+        /* background-color: red; */
+
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+    .goal_info_responsive_2{
+        margin: 0 0 1vh 0;
+        height: 30%;
+        width: 75%;
+        margin: 0;
+        /* background-color: green; */
+
+        display: flex;
+        align-items: center;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5vh;
+        font-weight: bold;
+        color: rgb(187, 187, 187);
+    }
+    .goal_line_br_responsive_2{
+        margin: 0 0 2vh 0;
+        height: 5%;
+        width: 90%;
+        /* background-color: blue; */
+        padding: 0;
+        border-bottom: 1.5px solid blue;
+    }
+
+    .chart_main{
+        padding: 7vh 0 0 5vh ;
+    }
+    #myChart{
+        padding: 3vh 2vh 0 0;
+        width: 40vh !important; 
+        height: 20vh !important;
+    }
+
+}

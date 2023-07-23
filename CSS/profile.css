@@ -1,0 +1,156 @@
+.profile{
+    width: 40vh;
+    height: 100%;
+    position:relative;
+    top: 0;
+    left: 8vh;
+    /* background-color: red; */
+    /* padding: 1vh 0 0 0; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.profile_main{
+    /* background-color: yellow; */
+    width: 40vh;
+    height: 18vh;
+    margin: 0 0 3vh 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 4vh 4vh 4vh;
+}
+
+.user_dp{
+    background-color: white;
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 1.5vh;
+    /* left: 3vh; */
+}
+.user_dp img{
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+}
+.username{
+    font-size: 3.5vh;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    /* margin-left: -10vh; */
+    /* color: gray; */
+}
+.welcome{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+.profile_info{
+    height: 30vh;
+    width: 100%;
+    padding: 0 0 0 8vh;
+    /* background-color: orange; */
+    position: inherit;
+}
+.day{
+    font-size: 1.8vh;
+    position: relative;
+    margin: 0 0 1.5vh 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    /* font-family: 'Roboto Slab', serif; */
+}
+.account_balance{
+    margin: 0 0 1.5vh 0;
+}
+.main_balance{
+    font-size: 3.5vh;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+.main_balance_info{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vh;
+    color: rgb(187, 187, 187);
+}
+
+.y-t-d-contributions{
+    margin: 0 0 1.5vh 0;
+}
+.y-t-d-balance{
+    font-size: 1.9vh;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+.y-t-d-info{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+    font-size: 1.5vh;
+}
+
+.total_interest{
+    margin: 0 0 1.5vh 0;
+}
+.total_interest_amount{
+    font-size: 1.9vh;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+.total_interest_info{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vh;
+    color: rgb(187, 187, 187);
+}
+
+
+
+.profile_extra_info{
+    height: 40vh;
+    width: 100%;
+    padding: 5vh 0 0 8vh;
+    /* background-color: green; */
+}
+.heading{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;    
+    font-size: 1.8vh;
+}
+
+.transfer_info_box{
+    padding: 1.6vh 0 1.6vh 0.5vh;
+}
+.transfer_date{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 0 0 0.5vh 0;
+    font-size: 1.5vh;
+    color: rgb(187, 187, 187);
+}
+.transfer_info{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vh;
+
+}
+.line_break{
+    padding: 0;
+    border-bottom: 1px solid gray;
+    opacity: 0.2;
+    width: 74%;
+    position: relative;
+    left: 0.5vh;
+}

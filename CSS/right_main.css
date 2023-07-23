@@ -1,0 +1,78 @@
+.update_section{
+    height: 30vh;
+    width: 27vh;
+    /* background-color: gray; */
+}
+.update_info{
+    height: 5vh;
+    width: 27vh;
+    /* background-color: black; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+} 
+.update_header{
+    height: 100%;
+    width: 17vh;
+    /* background-color: red; */
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.update_percentage{
+    height: 100%;
+    width: 5vh;
+    /* background-color: green; */
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.update_button_div{
+    width: 27vh;
+    height: 10vh;
+    padding: 4vh 0 2vh 0;
+    /* background-color: orange; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update_button{
+    height: 5vh;
+    width: 20vh;
+    background-color: blue;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    font-size: 1.7vh;
+}
+.update_section_other_docs{
+    width: 27vh;
+    height: 5vh;
+    /* padding-top: 1vh; */
+    /* background-color: red; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.update_section_other_docs a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: blue;
+}

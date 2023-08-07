@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/profile.css">
+    <link rel="stylesheet" href="./CSS/dropdown.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/right_main.css">
+
+    <link rel="stylesheet" href="./CSS/Responsive CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/Responsive CSS/profile.css">
+    <link rel="stylesheet" href="./CSS/Responsive CSS/dropdown.css">
+    <link rel="stylesheet" href="./CSS/Responsive CSS/main.css">
+    <link rel="stylesheet" href="./CSS/Responsive CSS/right_main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <!-- 1st part -->
+            <div class="side-nav">
+                <div class="user_div">
+                    <ul class="top">
+                        <li class="logo"><img class="logo_img" src="imgs/logo.jpg" alt="logo-png"></li>
+                        <li class="search"><img class="search_img" src="imgs/search.png" alt="logo-png"></li>
+                    </ul>
+                </div>
+                <ul class="mid">
+                    <li class="home"> <img class="home_img" src="imgs/home.png" alt="home-png">   </li>
+                    <li class="note2"> <img class="note2_img" src="imgs/note2.png" alt="note2-png"></li>
+                    <li class="notes"> <img class="notes_img" src="imgs/notes.png" alt="notes-png"></li>
+                    <li class="user"> <img class="user_img" src="imgs/user.png" alt="user-png">   </li>
+                </ul>
+                <ul class="bottom">
+                    <li class="bell"> <img class="bell_img" src="imgs/bell.png" alt="bell-png">  </li>
+                    <li class="exit"> <img class="exit_img" src="imgs/exit.png" alt="exit-png">  </li>
+                </ul>
+            </div>
+
+            <!-- 2nd part -->
+            <div class="profile">
+                <!-- top part -->
+                <div class="profile_main">
+                    <div class="user_dp">
+                        <img src="imgs/user_dp.jpg" alt="">
+                    </div>
+                    <div class="user_info">
+                        <div class="username"> Hi Mike,</div>
+                        <div class="welcome">welcome back.</div>
+                    </div>
+                </div>
+
+                <!-- middle part -->
+                <div class="profile_info">
+                    <div class="day">Today</div>
+
+                    <div class="account_balance">
+                        <div class="main_balance">$19,892</div>
+                        <div class="main_balance_info">Account Balance</div>
+                    </div>
+
+                    <div class="ytd_and_interest_div">
+                        <div class="y-t-d-contributions">
+                            <div class="y-t-d-balance">$4,000</div>
+                            <div class="y-t-d-info">Year-to-Date Contributions</div>
+                        </div>
+    
+                        <div class="total_interest">
+                            <div class="total_interest_amount">$1,892</div>
+                            <div class="total_interest_info">Total Interest</div>
+                        </div>
+                    </div>
+
+                    <label class="dropdown">
+                        <div class="dd-button">
+                          I want to
+                        </div>
+                      
+                        <input type="checkbox" class="dd-input" id="test">
+                      
+                        <!-- <ul class="dd-menu">
+                          <li>Action</li>
+                          <li>Another action</li>
+                          <li>Something else here</li>
+                          <li class="divider"></li>
+                          <li>
+                            <a href="http://rane.io">Link to Rane.io</a>
+                          </li>
+                        </ul>
+                         -->
+                      </label>
+                </div>
+
+                <!-- last part -->
+                <div class="profile_extra_info">
+                    <div class="heading">Recent Transactions</div>
+                    <div class="transfer_info_box">
+                        <div class="transfer_date">2020-08-07</div>
+                        <div class="transfer_info">Withdrawl Transfer to Bank-XXX11</div>
+                    </div>
+                    <div class="line_break"></div>
+
+                    <div class="transfer_info_box">
+                        <div class="transfer_date">2020-07-21</div>
+                        <div class="transfer_info">Withdrawl Transfer to Bank-XXX11</div>
+                    </div>
+                    <div class="line_break"></div>
+
+                    <div class="transfer_info_box">
+                        <div class="transfer_date">2020-07-16</div>
+                        <div class="transfer_info">Withdrawl Transfer to Bank-XXX11</div>
+                    </div>
+                    <div class="line_break"></div>
+                </div>
+            </div>
+
+            <!-- 3rd part  -->
+            <div class="left_main">
+                <div class="retirement_head">
+                    <div class="retirement_income">Retirenment Income</div>
+                    <div class="retirement_start_year">Starting Year 2056</div>
+                </div>
+                <div class="monetary_data_responsive">
+                    <div class="main_goal_slot responsive">
+                        <div class="goal_slot_responsive responsive">
+                            <div class="goal_main_responsive responsive">$300,000</div>
+                            <div class="goal_info_responsive responsive">My Goal</div>
+                            <div class="goal_line_br_responsive responsive"></div>
+                        </div>
+                    </div>
+                    <div class="rest_2_slot_responsive responsive">
+                        <div class="goal_slot_responsive_2 responsive">
+                            <div class="goal_main_responsive_2 responsive">59%</div>
+                            <div class="goal_info_responsive_2 responsive">Goal Achieved</div>
+                            <div class="goal_line_br_responsive_2 responsive"></div>
+                        </div>
+                        <div class="goal_slot_responsive_2 responsive">
+                            <div class="goal_main_responsive_2 responsive">$300</div>
+                            <div class="goal_info_responsive_2 responsive">Est. Monthly Income</div>
+                            <div class="goal_line_br_responsive_2 responsive"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="monetary_data">
+                    <div class="goal_slot">
+                        <div class="goal_main">$300,000</div>
+                        <div class="goal_info">My Goal</div>
+                        <div class="goal_line_br"></div>
+                    </div>
+                    
+                    <div class="goal_slot">
+                        <div class="goal_main">59%</div>
+                        <div class="goal_info">Goal Achieved</div>
+                        <div class="goal_line_br"></div>
+                    </div>
+                    
+                    <div class="goal_slot">
+                        <div class="goal_main">$300</div>
+                        <div class="goal_info">Est. Monthly Income</div>
+                        <div class="goal_line_br"></div>
+                    </div>
+                </div>
+
+                <div class="chart_main">
+                    <div class="chart_main_header">Contributions Overtime</div>
+                    <div class="chart_main_bar_chart">
+                        <canvas class="col-8 offset-2 my-5" id="myChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="peer_comparison">
+                    <div class="peer_header">How do I compare to my peers?</div>
+                    <div class="peer_para">These numbers represent current goal achievement</div>
+                    <div class="peer_stats">
+                        <div class="peer_dropdown">
+                            <div class="peer_age_dropdown">Age:</div>
+                            <div class="line_br_left_main"></div>
+                            <div class="peer_salary_dropdown">Salary:</div>
+                            <div class="line_br_left_main"></div>
+                            <div class="peer_gender_dropdown">Gender:</div>
+                            <div class="line_br_left_main"></div>
+                        </div>
+
+                        <div class="average_chart programming-stats">
+                            <div class="chart-container">
+                                <canvas class="my-chart1"></canvas>
+                            </div>
+                        </div>
+                        <div class="top_chart programming-stats">
+                            <div class="chart-container">
+                                <canvas class="my-chart2"></canvas>
+                            </div>
+                        </div>
+                        <div class="me_chart programming-stats">
+                            <div class="chart-container">
+                                <canvas class="my-chart3"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4th part  -->
+            <div class="right_main">
+                <div class="retirement_strat">Retirement Strategy</div>
+
+                <div class="bars">
+                    <div class="bar_section">
+                        <div class="bar_section_header">Employee Contribution</div>
+                        <div class="bar_section_slider">
+                            <div class="bar_section_slider_img_div">
+                                <img src="./imgs/slider.png" alt="mySliderPic" class="bar_section_slider_img">
+                            </div>
+                            <div class="bar_section_slider_percentage">12%</div>
+                        </div>
+                    </div>
+                    <div class="bar_section">
+                        <div class="bar_section_header">Retirement Age</div>
+                        <div class="bar_section_slider">
+                            <div class="bar_section_slider_img_div">
+                                <img src="./imgs/slider.png" alt="mySliderPic" class="bar_section_slider_img">
+                            </div>
+                            <div class="bar_section_slider_percentage">65</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="line_br_bars"></div>
+
+                <div class="update_section">
+                    <div class="update_info">
+                        <div class="update_header">Employer Contribution</div>
+                        <div class="update_percentage">8.4%</div>
+                    </div>
+                    <div class="update_info">
+                        <div class="update_header">Interest Rate</div>
+                        <div class="update_percentage">5%</div>
+                    </div>
+                    <div class="update_button_div">
+                        <button class="update_button">Update</button>
+                    </div>
+                    <div class="update_section_other_docs">
+                        <a href="">View Help Docs ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script src="./JS/bar_chart.js"></script>
+    <script src="./JS/doughnut_chart.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        function resp(){
+            if (screen.width < 870) {
+            $(".monetary_data_responsive").show();
+                // $(".monetary_data").hide();
+            }
+            else {
+                // $(".monetary_data_responsive").hide();
+                $(".monetary_data").show();
+            }
+
+            if (screen.width < 870) {
+                // $(".monetary_data_responsive").show();
+                $(".monetary_data").hide();
+            }
+            else {
+                $(".monetary_data_responsive").hide();
+                // $(".monetary_data").show();
+            }
+            if (screen.width < 870) {
+                // $(".monetary_data_responsive").show();
+                $(".peer_comparison").hide();
+            }
+            else{
+                $(".peer_comparison").show();
+                
+            }
+        }
+        $(document).ready(function(){
+            myVar = setInterval("resp()", 10);
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- font-family: 'Roboto Slab', serif; -->
+<!-- font-family: 'Open Sans', sans-serif; -->

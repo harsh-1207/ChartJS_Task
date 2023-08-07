@@ -1,0 +1,330 @@
+.left_main{
+    width: 110vh;
+    height: 100%;
+    position:relative;
+    /* background-color: blue; */
+    top: 0;
+    left: 15vh;
+}
+
+.retirement_head{
+    width: 100vh;
+    height: 10vh;
+    /* background-color: green; */
+    padding-left: 7.5vh;
+ 
+    position: relative;
+    top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.retirement_income{
+    width: 40vh;
+    height: 2vh;
+    background-color: white;
+    color: blue;
+    font-size: 1.5vh;
+    padding-left: 0.2vh;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.retirement_start_year{
+    width: 40vh;
+    height: 3vh;
+    background-color: white;
+    font-size: 2.5vh;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.monetary_data{
+    width: 100vh;
+    height: 13vh;
+    /* background-color: cyan; */
+    padding: 0 2vh 0 2vh;
+    margin: 0 0 5vh 0;
+
+    position: relative;
+    top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.goal_slot{
+    height: 10vh;
+    width: 30%;
+    /* padding: 1vh; */
+    /* background-color: gray; */
+}
+.goal_main{
+    height:40%;
+    width: 70%;
+    /* background-color: red; */
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.goal_info{
+    height: 30%;
+    width: 70%;
+    /* background-color: green; */
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+}
+.goal_line_br{
+    height: 5%;
+    width: 70%;
+    /* background-color: blue; */
+    padding: 0;
+    border-bottom: 1.5px solid blue;
+    /* opacity: 0.2; */
+}
+
+
+
+.chart_main{
+    height: 40vh;
+    width: 100vh;
+    padding-left: 7.5vh;
+    margin-bottom: 2.5vh;
+    /* background-color: yellow; */
+}
+#myChart {
+    width: 80vh !important; 
+}
+.chart_main_bar_chart{
+    width: 100vh;
+    padding: 0 1vh 0 0 ;
+    margin: 0;
+}
+.chart_main_header{
+    height: 2.2vh;
+    width: 100vh;
+    margin-bottom: 1vh;
+    /* background-color: gray; */
+
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+.chart_main_bar_chart{
+    height: 37vh;
+    width: 110vh;
+}
+.chart_main_bar_chart canvas{
+    width: 100vh;
+    margin: 0;
+}
+
+
+
+.peer_comparison{
+    height: 29vh;
+    width: 80vh;
+    /* background-color: gray; */
+    padding-left: 7.5vh;
+}
+.peer_header{
+    font-size: 2.2vh;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+.peer_para{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+    font-size: 1.5vh;
+    margin-bottom: 2.9vh;
+}
+
+.peer_stats{
+    height: 20vh;
+    width: 80vh;
+    /* background-color: pink; */
+
+    display: flex;
+}
+.peer_dropdown{
+    height: 100%;
+    width: 20vh;
+    /* background-color: red; */
+    margin: 0 3vh 0 0vh;
+}
+.peer_age_dropdown{
+    height: 20%;
+    width: 20vh;
+    background-color: #fff;
+    margin: 1.5vh 0 1.5vh 0;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+.peer_salary_dropdown{
+    height: 20%;
+    width: 20vh;
+    background-color: #fff;
+    margin: 1.5vh 0 1.5vh 0;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+.peer_gender_dropdown{
+    height: 20%;
+    width: 20vh;
+    background-color: #fff;
+    margin: 1.5vh 0 0 0;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.average_chart{
+    height: 100%;
+    width: 20vh;
+    /* background-color: cyan; */
+    margin: 0 1vh 0 1vh;
+}
+
+.top_chart{
+    height: 100%;
+    width: 20vh;
+    /* background-color: cyan; */
+    margin: 0 1vh 0 1vh;
+}
+
+.me_chart{
+    height: 100%;
+    width: 20vh;
+    /* background-color: cyan; */
+    margin: 0 1vh 0 1vh;
+}
+.line_br_left_main{
+    padding: 0;
+    border-bottom: 1px solid gray;
+    opacity: 0.2;
+}
+/* doughnut chart  */
+.programming-stats {
+    /* font-family: "Rubik", sans-serif; */
+    height: 100%;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+
+    /* background-color: gray; */
+    /* gap: 24px; */
+    /* margin: 0 auto; */
+    /* width: fit-content; */
+    /* box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3); */
+    /* border-radius: 20px; */
+    /* padding: 8px 32px; */
+    /* color: #023047; */
+    /* transition: all 400ms ease; */
+}
+.chart-container{
+    height: 100%;
+    width: 100%;
+}
+/* .my-chart1{
+    color: red;
+    background-color: red;
+} */
+
+
+
+.right_main{
+    width: 27vh;
+    height: 80vh;
+    position:relative;
+    /* background-color: yellow; */
+    top: 0;
+    left: 4vh;
+
+    display: flex;
+    /* justify-content: center; */
+    top: 10.5vh;
+    align-items: center;
+    flex-direction: column;
+}
+.retirement_strat{
+    height: 3vh;
+    width: 27vh;
+    /* background-color: cyan; */
+
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 2.2vh;
+}
+
+.bars{
+    height: 15vh;
+    width: 27vh;
+    /* background-color: brown; */
+    margin: 2vh 0 2vh 0;
+}
+.bar_section{
+    height: 50%;
+    width: 27vh;
+    /* background-color: rgb(245, 179, 179); */
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.bar_section_header{
+    height: 30%;
+    width: 27vh;
+    background-color: #fff;
+}
+.bar_section_slider{
+    height: 70%;
+    width: 27vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bar_section_slider img{
+    height: 105%;
+    width: 22vh;
+}
+.bar_section_slider_percentage{
+    height: 100%;
+    width: 5vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.line_br_bars{
+    width: 27vh;
+    margin-bottom: 1vh;
+    background-color: blue;
+    padding: 0;
+    border-bottom: 1px solid gray;
+    opacity: 0.2;
+}
+
+
+
+
